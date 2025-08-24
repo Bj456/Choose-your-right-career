@@ -4,9 +4,14 @@ import pandas as pd
 # CSV लोड करें
 @st.cache_data
 def load_data():
-    return pd.read_csv("career_dataset_hindi.csv")
+    df = pd.read_csv("career_dataset_hindi.csv")
+    df.columns = df.columns.str.strip()   # 🟢 कॉलम हेडर से extra spaces हटाओ
+    return df
 
 df = load_data()
+
+# Debugging के लिए कॉलम लिस्ट दिखाएँ
+st.write("📂 CSV Columns:", df.columns.tolist())
 
 # --- Streamlit App UI ---
 st.set_page_config(page_title="Career Guide App", layout="wide")

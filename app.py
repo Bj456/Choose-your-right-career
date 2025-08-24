@@ -4,7 +4,7 @@ import pandas as pd
 # CSV लोड करें
 @st.cache_data
 def load_data():
-    df = pd.read_csv("career_dataset_hindi.csv")
+    df = pd.read_csv("career_dataset_hindi.csv", header=0)  # Ensure the first row is treated as header
     df.columns = df.columns.str.strip()   # 🟢 कॉलम हेडर से extra spaces हटाओ
     return df
 

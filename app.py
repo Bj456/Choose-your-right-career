@@ -8,31 +8,37 @@ def load_data():
 
 df = load_data()
 
-st.set_page_config(page_title="कैरियर गाइड चैटबॉट", page_icon="🎓")
+# --- Streamlit App UI ---
+st.set_page_config(page_title="Career Guide App", layout="wide")
 
-st.title("🤖 कैरियर गाइड चैटबॉट")
-st.write("यह चैटबॉट आपकी कक्षा और रुचि के अनुसार करियर विकल्प बताता है।")
+st.title("🎓 करियर गाइड ऐप (भारत)")
+st.write("👉 इस ऐप की मदद से आप 10वीं, 12वीं और ग्रेजुएशन के बाद उपलब्ध करियर विकल्प देख सकते हैं।")
 
-# Step 1: कक्षा चुनें
-kaksha = st.selectbox("आप किस कक्षा में हैं?", ["10", "12", "UG"])
+# Level Filter
+level_options = df["Level"].unique()
+selected_level = st.selectbox("📌 कक्षा चुनें:", sorted(level_options))
 
-# Step 2: रुचि चुनें
-interest_options = df[df['kaksha_level'] == kaksha]['interest'].unique()
-interest = st.selectbox("आपकी रुचि क्या है?", interest_options)
+# Interest Filter
+interest_options = df[df["Level"] == selected_level]["Interest"].unique()
+selected_interest = st.selectbox("🎯 रूचि का क्षेत्र चुनें:", sorted(interest_options))
 
-# Step 3: सुझाव दिखाएँ
-if st.button("🔍 करियर विकल्प देखें"):
-    filtered = df[(df['kaksha_level'] == kaksha) & (df['interest'] == interest)]
-    
-    if not filtered.empty:
-        for _, row in filtered.iterrows():
-            st.subheader(f"🎯 {row['career_title']} ({row['match_weight']}%)")
-            st.write(f"**विवरण:** {row['career_description']}")
-            st.write(f"**सुझाया गया स्ट्रीम:** {row['suggested_stream']}")
-            st.write(f"**जरूरी विषय:** {row['required_subjects']}")
-            st.write(f"**प्रवेश परीक्षा:** {row['entrance_exams']}")
-            st.write(f"**सामान्य डिग्री:** {row['typical_degrees']}")
-            st.write(f"**वैकल्पिक रास्ता:** {row['alternative_paths']}")
-            st.markdown("---")
-    else:
-        st.warning("क्षमा करें, आपके लिए कोई विकल्प नहीं मिला।")
+# Filter Data
+filtered_df = df[(df["Level"] == selected_level) & (df["Interest"] == selected_interest)]
+
+# Display Results
+if not filtered_df.empty:
+    for idx, row in filtered_df.iterrows():
+        with st.container():
+            st.subheader(f"📘 {row['Course_Name']}")
+            st.write(f"**करियर विकल्प:** {row['Career_Option']}")
+            st.write(f"**विवरण:** {row['Description']}")
+            st.write(f"**पात्रता (Eligibility):** {row['Eligibility']}")
+            st.write(f"**प्रवेश परीक्षा (Entrance Exam):** {row['Entrance_Exam']}")
+            st.write(f"**प्रवेश माह (Admission Month):** {row['Admission_Month']}")
+            st.write(f"**संस्थान / विश्वविद्यालय:** {row['Universities']}")
+            if pd.notna(row['Application_Link']) and row['Application_Link'] != "N/A":
+                st.markdown(f"[🔗 आवेदन / वेबसाइट देखें]({row['Application_Link']})")
+            st.progress(int(row['Match_Percentage']))
+            st.divider()
+else:
+    st.warning("❌ इस श्रेणी में कोई डेटा उपलब्ध नहीं है।")

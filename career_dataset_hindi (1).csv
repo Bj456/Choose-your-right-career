@@ -1,0 +1,6 @@
+Level,Interest,Course_Name,Career_Option,Description,Eligibility,Entrance_Exam,Admission_Month,Universities,Application_Link,Match_Percentage
+Class 10,Science,Polytechnic Diploma,Junior Engineer,3-year diploma course after 10th.,10th Pass,State Entrance Exam,June-July,Government Polytechnic,https://dte.org.in,85
+Class 10,Commerce,ITI (Accountancy),Accountant,Practical training in accounting & business.,10th Pass,Direct Admission,June,ITI Colleges,N/A,75
+Class 10,Arts,Diploma in Fine Arts,Artist,"Learn painting, sculpture, applied arts.",10th Pass,Direct Admission,July,Delhi College of Arts,N/A,80
+Class 10,Technology,ITI in Computer Operator,Computer Operator / Data Entry,Basic training in computer operation and typing.,10th Pass,Direct Admission,June-July,Govt. & Private ITI,N/A,70
+Class 10,Healthcare,Diploma in Medical Lab Technology,Lab Technician,2-year diploma for working in medical labs.,10th Pass,Direct Admission,July,Paramedical Institutes,N/A,78

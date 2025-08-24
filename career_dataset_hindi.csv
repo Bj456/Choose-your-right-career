@@ -1,31 +1,18 @@
-﻿id,kaksha_level,interest,career_title,career_description,suggested_stream,required_subjects,entrance_exams,typical_degrees,alternative_paths,match_weight,tags
-1,10,Technology,पॉलीटेक्निक इंजीनियरिंग,3 साल का डिप्लोमा कोर्स जिससे तकनीकी क्षेत्रों में नौकरी मिल सकती है,PCM,Maths+Science,State Polytechnic Exam,Diploma Engineering,ITI,85,STEM
-2,10,Technology,आईटीआई (इंडस्ट्रियल ट्रेनिंग),"हुनर आधारित कोर्स जैसे इलेक्ट्रीशियन, फिटर, वेल्डिंग आदि",Any,Basic Maths,None,ITI Certificate,Apprenticeship,80,SKILL
-3,10,Arts,फाइन आर्ट्स डिप्लोमा,"चित्रकला, मूर्तिकला, डिजाइनिंग में करियर की शुरुआत",Arts,Drawing,None,Diploma Fine Arts,Private Courses,75,CREATIVE
-4,10,Commerce,डिप्लोमा इन अकाउंटिंग,बेसिक फाइनेंस और अकाउंटिंग की पढ़ाई,Commerce,Maths+Accounts,None,Diploma in Accounts,Certification,70,FINANCE
-5,10,Sports,डिप्लोमा इन स्पोर्ट्स,"कोचिंग, फिटनेस और ट्रेनिंग के क्षेत्र में प्रवेश",Any,PE,None,Diploma Sports,Private Certification,72,SPORTS
-6,12,Science,इंजीनियरिंग,"कंप्यूटर, मैकेनिकल, इलेक्ट्रिकल आदि क्षेत्रों में इंजीनियरिंग",PCM,Maths+Physics+Chemistry,JEE Main/Advanced,B.Tech/BE,Diploma to Degree,90,STEM
-7,12,Medical,डॉक्टर,"एमबीबीएस, बीडीएस या अन्य मेडिकल डिग्री कर के डॉक्टर बनना",PCB,Biology+Chemistry,NEET,MBBS/BDS/BAMS,B.Sc Nursing,95,HEALTH
-8,12,Defence,NDA (नेशनल डिफेंस अकादमी),"आर्मी, नेवी, एयरफोर्स में अधिकारी बनने का मौका",PCM,Maths+Physics,NDA Exam,BSc/Defence Academy Training,Direct Entry,92,DEFENCE
-9,12,Aviation,पायलट,कमर्शियल पायलट बनना और एयरलाइंस में कार्य करना,PCM,Maths+Physics,DGCA Exam,B.Sc Aviation,Pilot License,92,AVIATION
-10,12,Science,बीएससी नर्सिंग,हॉस्पिटल और हेल्थ सेक्टर में करियर,PCB,Biology,None,B.Sc Nursing,GNM,85,HEALTH
-11,12,Commerce,चार्टर्ड अकाउंटेंट,फाइनेंस और अकाउंट्स का प्रोफेशनल करियर,Commerce,Accounts+Maths,CA Foundation,CA,B.Com,88,FINANCE
-12,12,Commerce,कंपनी सेक्रेटरी (CS),कानूनी और कॉर्पोरेट सेक्टर का कोर्स,Commerce,Accounts,None,CS Foundation,Law Degree,80,FINANCE
-13,12,Arts,जर्नलिज्म,पत्रकारिता और मीडिया क्षेत्र,Arts,English+Hindi,None,BA Journalism,Mass Comm Diploma,78,MEDIA
-14,12,Arts,फाइन आर्ट्स,"चित्रकला, मूर्तिकला आदि",Arts,Drawing+Humanities,NID/NIFT,BFA,Diploma Fine Arts,82,CREATIVE
-15,12,Science,बीएससी एग्रीकल्चर,"खेती, फसल विज्ञान और अनुसंधान क्षेत्र",PCB,Biology+Agrisub,ICAR,B.Sc Agriculture,Diploma Agri,84,AGRI
-16,12,Commerce,BBA/मैनेजमेंट,बिजनेस और मैनेजमेंट क्षेत्र में प्रवेश,Any,Maths+English,CET/UGAT,BBA/MBA,Diploma Mgmt,80,MANAGEMENT
-17,12,Science,फार्मेसी,दवाइयों के रिसर्च और उत्पादन क्षेत्र,PCB,Chemistry+Biology,State Entrance,B.Pharm,Diploma Pharm,83,HEALTH
-18,12,Arts,होटल मैनेजमेंट,पर्यटन और होटल इंडस्ट्री में नौकरी,Any,English+Comms,NCHM JEE,BHM,Diploma HM,79,HOSPITALITY
-19,12,Arts,फैशन डिजाइनिंग,फैशन और क्रिएटिव इंडस्ट्री,Arts,Drawing+Design,NIFT Entrance,B.Des/Diploma,Private Courses,81,CREATIVE
-20,UG,Management,MBA,बिजनेस मैनेजमेंट और कॉर्पोरेट क्षेत्र,Any,Any,CAT/XAT/MAT,MBA,PGDM,90,MANAGEMENT
-21,UG,Research,एमटेक/एमएस,इंजीनियरिंग रिसर्च और उच्च अध्ययन,Engineering,PCM,GATE,M.Tech/MS,Research Fellow,88,STEM
-22,UG,CivilService,IAS/IPS,प्रशासनिक सेवाओं में करियर,Any,Any,UPSC,BA/MA/Any,State PSC,92,GOVT
-23,UG,Law,वकील,कानून और न्याय क्षेत्र,Any,Any,CLAT PG,LLB/LLM,Paralegal,85,LAW
-24,UG,Defence,AFCAT,एयरफोर्स में नौकरी,Any,Maths,AFCAT,BSc/BTech,Defence Training,87,DEFENCE
-25,UG,Govt,Banking,बैंकिंग और फाइनेंस सेक्टर,Any,Maths+English,IBPS/SBI PO,B.Com/MBA,Private Banks,84,FINANCE
-26,UG,Education,टीचर,शिक्षा और अध्यापन क्षेत्र,Any,Any,CTET/TET,B.Ed/M.Ed,Private Coaching,83,EDU
-27,UG,Research,PhD,रिसर्च और उच्च शिक्षा,Any,Any,NET/JRF,PhD,Research Fellow,86,ACADEMICS
-28,UG,Media,फिल्म और टीवी प्रोडक्शन,एंटरटेनमेंट और मीडिया,Any,Any,FTII Exam,Diploma Film/TV,BJMC,80,MEDIA
-29,UG,Entrepreneurship,स्टार्टअप,अपना बिजनेस शुरू करना,Any,Any,None,MBA/Experience,Incubation Programs,78,BUSINESS
-30,UG,Health,पब्लिक हेल्थ प्रोफेशनल,जन स्वास्थ्य और NGO क्षेत्र,Any,Biology/Any,NEET PG/Other,MPH,Diploma Health Mgmt,82,HEALTH
+Level,Interest,Course_Name,Career_Option,Description,Eligibility,Entrance_Exam,Admission_Month,Universities,Application_Link,Match_Percentage
+10,Technical,ITI Electrician,Technician,विद्युत उपकरणों और वायरिंग की मरम्मत और इंस्टॉलेशन सीखना,10th Pass,None,June-July,Government ITIs / Private ITIs,https://dgt.gov.in/iti,80
+10,Technical,ITI Fitter,Technician,मशीन पार्ट्स और उपकरणों की असेंबली व मरम्मत,10th Pass,None,June-July,Government ITIs / Private ITIs,https://dgt.gov.in/iti,78
+10,Technical,ITI Welder,Technician,वेल्डिंग और कटिंग से जुड़ी तकनीक,10th Pass,None,June-July,Government ITIs / Private ITIs,https://dgt.gov.in/iti,76
+10,Engineering,Polytechnic Diploma in Mechanical Engineering,Junior Engineer,मैकेनिकल इंजीनियरिंग में बेसिक डिप्लोमा,10th Pass,State Polytechnic Entrance,May-June,State Polytechnic Colleges,https://msbte.org.in,85
+10,Engineering,Polytechnic Diploma in Civil Engineering,Junior Engineer,निर्माण और सिविल वर्क से जुड़ा कोर्स,10th Pass,State Polytechnic Entrance,May-June,State Polytechnic Colleges,https://msbte.org.in,84
+10,Engineering,Polytechnic Diploma in Computer Engineering,Junior Engineer,कंप्यूटर प्रोग्रामिंग और हार्डवेयर की पढ़ाई,10th Pass,State Polytechnic Entrance,May-June,State Polytechnic Colleges,https://msbte.org.in,86
+10,Vocational,Hospitality & Hotel Management,Vocational Expert,होटल और रिसॉर्ट मैनेजमेंट के बेसिक स्किल,10th Pass,None,June-Aug,Private Institutes / IHMs,https://www.ihm.ac.in/,70
+10,Vocational,Fashion Designing,Vocational Expert,ड्रेस और फैशन इंडस्ट्री में बेसिक डिजाइनिंग,10th Pass,None,June-Aug,Fashion Design Institutes,https://nift.ac.in/,72
+10,Commerce,Diploma in Accountancy,Junior Accountant,बेसिक अकाउंटिंग और बिजनेस फाइनेंस,10th Pass,None,June-Aug,Private & Govt Colleges,N/A,74
+10,Arts,Certificate in Fine Arts,Artist,पेंटिंग, ड्रॉइंग और कला से जुड़ी पढ़ाई,10th Pass,None,June,Arts Institutes,https://www.ftii.ac.in/,68
+10,Arts,Diploma in Dance,Performer,भारतीय शास्त्रीय या वेस्टर्न डांस की ट्रेनिंग,10th Pass,Audition,July,Music & Dance Academies,N/A,65
+10,Arts,Diploma in Music,Musician,वाद्य यंत्र और गायन की ट्रेनिंग,10th Pass,Audition,July,Music Academies,N/A,67
+10,Defence,Agniveer Soldier General Duty,Soldier,भारतीय सेना में सैनिक स्तर की भर्ती,10th Pass with 45%,Written + Physical Test,Varies,Indian Army Recruitment Centres,https://joinindianarmy.nic.in/,82
+10,Defence,Agniveer Soldier Technical,Soldier,टेक्निकल उपकरण संभालने और ऑपरेट करने की ट्रेनिंग,10th Pass with Science,Written + Physical Test,Varies,Indian Army Recruitment Centres,https://joinindianarmy.nic.in/,80
+10,Defence,Agniveer Soldier Tradesman,Soldier,ट्रेड से जुड़े काम जैसे कुक, टेलर, ITI धारक को प्राथमिकता,10th Pass or ITI,Written + Physical Test,Varies,Indian Army Recruitment Centres,https://joinindianarmy.nic.in/,78
+10,Sports,Diploma in Physical Education,Trainer/Coach,खेल और फिटनेस ट्रेनिंग की पढ़ाई,10th Pass,None,June,Physical Education Colleges,N/A,73
+10,Sports,Certificate in Sports Coaching,Coach,बेसिक लेवल पर खिलाड़ियों को ट्रेन करने की पढ़ाई,10th Pass,None,June,NSNIS Patiala & Sports Institutes,https://nsnis.org/,75
